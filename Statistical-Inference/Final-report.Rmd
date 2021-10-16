@@ -1,0 +1,62 @@
+---
+title: "A Report on Inference on Population Means"
+author: 
+  name: "Riad Mashrub Shourov"
+  ID: "201900303002"
+  Batch: "03"
+  Course: "ASDS04"
+date: "10/16/2021"
+
+output: 
+  bookdown::word_document2: default
+  toc: yes
+  theme: flatly
+bibliography: r-references.bib
+biblio-style: apa
+#csl: apa-5th-edition.csl
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list = ls())
+
+```
+
+# Abstract
+
+Statistical inference is the process of making reasonable guesses about a population's distribution as well as its parameters on the basis of observations which may be drawn using some forms of sampling. Inference for mean of a population are made using a sample mean when population mean cannot be known.
+
+
+# Chapter 1: Introduction
+
+
+
+# Chapter 2: Methodology
+
+
+# Chapter 3: Practical Application
+
+
+# Chapter 4: Conclusion
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots @R-base, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
